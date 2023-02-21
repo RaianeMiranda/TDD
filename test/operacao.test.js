@@ -102,6 +102,51 @@ describe('Teste da calculadora', () => {
 
         let resultado = calculadora.raiz(16)
         expect(resultado).toEqual(4)
+        
+        // resultado = calculadora.raiz(-16)
+        // expect(resultado).toThrow('Não é um número') 
+        
+        resultado = calculadora.raiz(0)
+        expect(resultado).toEqual(0)
+        
+        resultado = calculadora.raiz(2)
+        expect(resultado).toEqual(1.4142135623730951)
+
+        resultado = () => calculadora.raiz("a", 2);
+        expect(resultado).toThrow('Não é um número')
+
+        resultado = () => calculadora.raiz(2, "a");
+        expect(resultado).toThrow('Não é um número')
+    })
+
+    it('Operação de Potência', () => {
+
+        let resultado = calculadora.pot(7,2)
+        expect(resultado).toEqual(49)
+       
+        resultado = calculadora.pot(4,0.5)
+        expect(resultado).toEqual(2)
+       
+        resultado = calculadora.pot(8,1/3)
+        expect(resultado).toEqual(2)
+      
+        resultado = calculadora.pot(8,-1/3)
+        expect(resultado).toEqual(0.5)
+       
+        resultado = calculadora.pot(-7,3)
+        expect(resultado).toEqual(-343)
+       
+        resultado = calculadora.pot(7,-2)
+        expect(resultado).toEqual(0.020408163265306124)
+       
+        resultado = calculadora.pot(8,0)
+        expect(resultado).toEqual(1)
+
+        resultado = () => calculadora.pot("a", 2);
+        expect(resultado).toThrow('Não é um número')
+
+        resultado = () => calculadora.pot(2, "a");
+        expect(resultado).toThrow('Não é um número')
 
     })
 
