@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/RaianeMiranda/TDD#readme",
   "dependencies": {
-    "jest": "^29.4.2",
     "jest-junit": "^15.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
   }
 }
