@@ -26,7 +26,9 @@ function div(num1,num2){
 function raiz(num1){
     if(isNaN(num1)){
         throw "Não é um número"
-    }  return Math.sqrt(num1)
+    } if (num1 <0) {
+        throw "não existe raiz negativa"
+    } return Math.sqrt(num1)
 }
 
 function pot(num1,num2){

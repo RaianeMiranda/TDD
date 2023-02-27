@@ -103,20 +103,21 @@ describe('Teste da calculadora', () => {
         let resultado = calculadora.raiz(16)
         expect(resultado).toEqual(4)
         
-        // resultado = calculadora.raiz(-16)
-        // expect(resultado).toThrow('Não é um número') 
-        
         resultado = calculadora.raiz(0)
         expect(resultado).toEqual(0)
         
         resultado = calculadora.raiz(2)
         expect(resultado).toEqual(1.4142135623730951)
+        
+        resultado = calculadora.raiz(2.5)
+        expect(resultado).toEqual(1.5811388300841898)
 
-        resultado = () => calculadora.raiz("a", 2);
+        resultado = () => calculadora.raiz("a");
         expect(resultado).toThrow('Não é um número')
-
-        resultado = () => calculadora.raiz(2, "a");
-        expect(resultado).toThrow('Não é um número')
+          
+        resultado = () => calculadora.raiz(-2);
+        expect(resultado).toThrow('não existe raiz negativa')
+    
     })
 
     it('Operação de Potência', () => {
