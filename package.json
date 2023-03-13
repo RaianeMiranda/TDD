@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest test/operacao.test.js"
+    "test": "jest --coverage test/operacao.test.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/RaianeMiranda/TDD#readme",
   "dependencies": {
-    "jest-junit": "^15.0.0"
+    "jest-junit": "^15.0.0",
+    "nyc": "^15.1.0"
   },
   "devDependencies": {
     "jest": "^29.4.3"

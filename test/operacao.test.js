@@ -30,10 +30,10 @@ describe('Teste da calculadora', () => {
         resultado = calculadora.sub(0, 2)
         expect(resultado).toEqual(-2)
 
-        resultado = () => calculadora.sum("a", 2);
+        resultado = () => calculadora.sub("a", 2);
         expect(resultado).toThrow('Não é um número')
 
-        resultado = () => calculadora.sum(2, "a");
+        resultado = () => calculadora.sub(2, "a");
         expect(resultado).toThrow('Não é um número')
     })
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1678733938929" clover="3.2.0">
+  <project timestamp="1678733938929" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="24" coveredconditionals="24" methods="6" coveredmethods="6" elements="51" coveredelements="51" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+    <file name="operacao.js" path="C:\Users\raiane.oliveira\Documents\TDD\src\operacao.js">
+      <metrics statements="21" coveredstatements="21" conditionals="24" coveredconditionals="24" methods="6" coveredmethods="6"/>
+      <line num="2" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="8" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="14" count="8" type="cond" truecount="4" falsecount="0"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="16" count="6" type="stmt"/>
+      <line num="20" count="9" type="cond" truecount="4" falsecount="0"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="22" count="7" type="stmt"/>
+      <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="4" type="stmt"/>
+      <line num="35" count="9" type="cond" truecount="4" falsecount="0"/>
+      <line num="36" count="2" type="stmt"/>
+      <line num="37" count="7" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
